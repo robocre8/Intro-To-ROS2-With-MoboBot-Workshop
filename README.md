@@ -1,6 +1,8 @@
 # Intro-To-ROS2-With-MoboBot-Workshop
 Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija Abuja Meetup**]() March 2026.
 
+<br/>
+
 ---
 <br/>
 
@@ -10,6 +12,8 @@ Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija Abuja Mee
 > - You would be setting up **Ubuntu 24.04**, **ros-jazzy-desktop**, and **Gazebo Harmonic**.
 > - You can also follow with Windows 11 and WSL with Ubuntu24.04 LTS
 > - Those who use Ubuntu 22.04 and  ros-humble can also follow along
+
+<br/>
 
 ### 1. System Setup and Configuration (Ubuntu 24.04 LTS)
 
@@ -38,6 +42,7 @@ Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija Abuja Mee
 
 > The `.devcontainer` folder is pre-configured with ROS2 Jazzy and tools.
 
+<br/>
 
 ### 2. ROS2 Jazzy Installation
 
@@ -49,12 +54,16 @@ Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija Abuja Mee
   echo $ROS_DISTRO
   ```
 
+<br/>
+
 ---
 <br/>
 
 ## 🧰 Workshop Package: [MoboBot](https://github.com/robocre8/mobo_bot)
 
 Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https://github.com/robocre8).
+
+<br/>
 
 ---
 <br/>
@@ -65,6 +74,8 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
 > - Your Dev PC must be running **Ubuntu 24.04**, **ros-jazzy-desktop**, and **Gazebo Harmonic**.
 > - If you followed the installation guide, you should not worry about this info
 > - just follow the instructions below by just copying and pasting. There's no need to worry much.
+
+<br/>
 
 ---
 <br/>
@@ -82,6 +93,8 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
   ```shell
   echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
   ```
+
+<br/>
 
 ---
 <br/>
@@ -135,6 +148,8 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
   echo "export MOBOBOT_BASE_TYPE=2WD" >> ~/.bashrc
   ```
 
+<br/>
+
 ---
 <br/>
 
@@ -145,6 +160,8 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
   source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup tf_view.launch.py \
   use_hardware:=false
   ```
+
+<br/>
 
 ---
 <br/>
