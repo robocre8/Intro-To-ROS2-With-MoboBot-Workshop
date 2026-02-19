@@ -1,5 +1,5 @@
 # Intro-To-ROS2-With-MoboBot-Workshop
-Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija Abuja Meetup**]() March 2026.
+Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija**](https://sites.google.com/view/ros-naija/home) Abuja Meetup 21st, March 2026.
 
 <br/>
 
@@ -59,9 +59,14 @@ Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija Abuja Mee
 ---
 <br/>
 
+![MoboBot Image](./docs/mobo-bot-pic.png)
 ## 🧰 Workshop Package: [MoboBot](https://github.com/robocre8/mobo_bot)
 
 Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https://github.com/robocre8).
+<br/>
+<br/>
+**MoboBot** is a compact yet powerful open-source robot designed to foster the learning of advanced autonomous indoor mobile robotics with ROS2 — both in **real-world** applications and **simulation**.
+> concepts such as *sensor-fusion*, *control*, *state-estimation*, *mapping*, *localization*, *SLAM*, *navigation*, *obstacle avoidance*, *perception*, with *AI*.
 
 <br/>
 
@@ -183,6 +188,5 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
   >
   >NOTE: also feel free to use any other **teleop package** you want 
   
-#
 ---
 
