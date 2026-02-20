@@ -68,7 +68,18 @@
 ### 🎮 MoboBot Navigation (Hardware)
 > **NOTE**: run in different terminals.
 
-- **Start Navigation with AMCL and Occupancy Grid Map (Raspberry Pi):**
+- **Start Navigation with AMCL Localization and Occupancy Grid Map (Raspberry Pi):**
+  ```shell
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup robot_navigation.launch.py \
+  map_name:=<enter the map_name> \
+  # use_ekf:=true \
+  # use_camera:=true \
+  # nav_params_name:=nav2_params_omni
+  ```
+
+**OR**
+
+- **Start Navigation with SLAM Localization and PoseGragh Map (Raspberry Pi):**
   ```shell
   source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup robot_navigation.launch.py \
   map_name:=<enter the map_name> \

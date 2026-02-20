@@ -39,10 +39,21 @@
 ### 🎮 MoboBot Navigation (Simulation)
 > **NOTE**: run in different terminals.
 
-- **Start Navigation (with AMCL and Occupancy Grid Map):**
+- **Start Navigation (with AMCL Localization and Occupancy Grid Map):**
   ```shell
   source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_navigation.launch.py \
   world_name:=room_with_walls \
+  ```
+
+**OR**
+
+- **Start Navigation (with SLAM Localization and Posegraph Map):**
+  ```shell
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_navigation.launch.py \
+  world_name:=room_with_walls \
+  use_slam:=True \
+  serialized_map_name:=room_with_walls \
+  # nav_params_name:=nav2_params_omni
   ```
   
 #
