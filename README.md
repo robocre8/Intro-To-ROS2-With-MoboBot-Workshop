@@ -2,6 +2,8 @@
 # Intro-To-NAV2-With-MoboBot-Workshop
 Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija**](https://sites.google.com/view/ros-naija/home) Abuja Meetup 21st, March 2026.
 
+> [**PRESENTATION LINK**](https://docs.google.com/presentation/d/1XkfOCbI5WtYQELoMaFneR6Bcn1yq11MsakbWeI0MYMg/edit?usp=sharing)
+
 <br/>
 
 ---
@@ -159,6 +161,8 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
 ---
 <br/>
 
+![mobobot-tf](./docs/mobo-bot-tf.png)
+
 ### 🔭 View Robot and TF Tree
 
 - **Robot State Publisher, Rviz Visualization, and TF tree View:**
@@ -171,6 +175,8 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
 
 ---
 <br/>
+
+![mobobot-sim](./docs/mobo_bot2_sim_test.gif)
 
 ### 🎮 Run MoboBot Simulation
 > **NOTE**: run in different terminals.
