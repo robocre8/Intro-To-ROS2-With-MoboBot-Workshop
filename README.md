@@ -1,4 +1,5 @@
-# Intro-To-ROS2-With-MoboBot-Workshop
+![topic img](./docs/meetup-topic-nav2.png)
+# Intro-To-NAV2-With-MoboBot-Workshop
 Introduction to ROS2 (Nav2) With MoboBot Workshop for the [**ROS Naija**](https://sites.google.com/view/ros-naija/home) Abuja Meetup 21st, March 2026.
 
 <br/>
