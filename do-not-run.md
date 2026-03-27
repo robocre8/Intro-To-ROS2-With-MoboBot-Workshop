@@ -3,8 +3,7 @@
 
 - **Start Mapping:**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_mapping.launch.py \
-   world_name:=room_with_walls
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_mapping.launch.py world_name:=room_with_walls
   ```
 
 - **Control with Keyboard To Update Map:**
@@ -30,6 +29,11 @@
   ```shell
   ros2 service call /slam_toolbox/serialize_map slam_toolbox/srv/SerializePoseGraph "{filename: '/home/$USER/mobo_bot_ws/src/mobo_bot/mobo_bot_navigation/maps/room_with_walls'}"
   ```
+
+- **Rebuild Package to make map available:**
+  ```shell
+  cd ~/mobo_bot_ws && colcon build --symlink-install
+  ```
   
 <br/>
 
@@ -41,19 +45,14 @@
 
 - **Start Navigation (with AMCL Localization and Occupancy Grid Map):**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_navigation.launch.py \
-  world_name:=room_with_walls \
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_navigation.launch.py world_name:=room_with_walls
   ```
 
 **OR**
 
 - **Start Navigation (with SLAM Localization and Posegraph Map):**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_navigation.launch.py \
-  world_name:=room_with_walls \
-  use_slam:=True \
-  serialized_map_name:=room_with_walls \
-  # nav_params_name:=nav2_params_omni
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_navigation.launch.py world_name:=room_with_walls use_slam:=True serialized_map_name:=room_with_walls
   ```
   
 #
