@@ -168,8 +168,7 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
 
 - **Robot State Publisher, Rviz Visualization, and TF tree View:**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup tf_view.launch.py \
-  use_hardware:=false
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup tf_view.launch.py use_hardware:=false
   ```
 
 <br/>
@@ -184,7 +183,7 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
 
 - **Start Simulation:**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim.launch.py
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim.launch.py #use_camera:=true
   ```
 
 - **Control with Keyboard:**
