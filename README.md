@@ -188,7 +188,7 @@ Give the package a ⭐ and learn more about ROS and robotics by [Robocre8](https
 
 - **Control with Keyboard:**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 run arrow_key_teleop_drive arrow_key_teleop_drive 0.15 0.7 true
+  source ~/mobo_bot_ws/install/setup.bash && ros2 run arrow_key_teleop_drive arrow_key_teleop_drive 0.3 0.9 true
   ```
   >NOTE: you would need to click into the rviz or simulation for the 
   > arrow_key_teleop drive to start woking. because it uses pynput
