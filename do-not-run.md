@@ -3,7 +3,7 @@
 
 - **Start Mapping:**
   ```shell
-  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_mapping.launch.py world_name:=room_with_walls
+  source ~/mobo_bot_ws/install/setup.bash && ros2 launch mobo_bot_bringup sim_mapping.launch.py world_name:=room_with_walls #use_nav:=True
   ```
 
 - **Control with Keyboard To Update Map:**
@@ -11,7 +11,7 @@
   source ~/mobo_bot_ws/install/setup.bash && ros2 run arrow_key_teleop_drive arrow_key_teleop_drive 0.15 0.7 true
   ```
   >NOTE: you would need to click into the rviz or simulation for the 
-  > arrow_key_teleop drive to start woking. because it uses pynput
+  > arrow_key_teleop drive to start working. because it uses pynput
   >
   >NOTE: also feel free to use any other **teleop package** you want 
 
